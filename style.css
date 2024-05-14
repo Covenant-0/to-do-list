@@ -1,0 +1,66 @@
+@media only screen and (min-width: 400px) { 
+body {
+    background-image: url(background.png);
+	font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+#to-do-list {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#to-do-list th, #to-do-list td {
+	border: 2px solid black;
+	padding: 10px;
+	text-align: left;
+}
+
+#to-do-list th {
+	background-color: darkgray;
+}
+
+#to-do-list td input[type="text"] {
+	width: 100%;
+	padding: 10px;
+}
+
+#to-do-list td input[type="checkbox"] {
+	margin: 0 auto;
+}
+#to-do-list td button {
+	background-color: darkgray;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#to-do-list td button:hover {
+	background-color: grey;
+}
+input[type="checkbox"]{
+    accent-color: darkgray;
+}
+#task-list{
+    font-size: 20px;
+    font-weight: 400; 
+}
+input[type="date"]{
+    background-color: darkgray;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+input[type="date"]:hover{
+    background-color: gray;
+}
+/* #note{
+    height: 50px;
+    width: 100px;
+    border: none;
+} */
+}
